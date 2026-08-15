@@ -1,9 +1,13 @@
 package Projeto;
 
-public abstract class Exercicio {
+import java.io.Serializable;
+
+public abstract class Exercicio implements Serializable{
     
     protected String nome;
     protected int series;
+
+    private static final long serialVersionUID = 1L;
 
     public Exercicio(String nome, int series){
 

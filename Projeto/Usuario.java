@@ -1,7 +1,10 @@
 package Projeto;
+import java.io.Serializable;
 import java.util.HashMap;
 
-public class Usuario{
+public class Usuario implements Serializable {
+
+    private static final long serialVersionUID = 1L;
 
     private String nome;
     private double peso;
@@ -45,12 +48,44 @@ public class Usuario{
             System.out.println("\n" + dia + ":");
 
                 if (treino != null) {
+
                     treino.exibirTreino();
+
                 } else {
+
                     System.out.println("  Descanso");
+                    
                 }
     }
-        
+    }
+
+    public String getNome() {
+
+        return nome;
+
+    }
+
+    public double getPeso() {
+
+        return peso;
+
+    }
+
+    public double getAltura() {
+
+        return altura;
+
+    }
+
+    public int getIdade() {
+
+        return idade;
+
+    }
+
+    public String getObjetivo() {
+
+        return objetivo;
 
     }
 
