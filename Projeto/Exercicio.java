@@ -20,5 +20,10 @@ public abstract class Exercicio {
         
     }
 
+    public int getSeries(){
+        
+        return series;
+        
+    }
 }
 

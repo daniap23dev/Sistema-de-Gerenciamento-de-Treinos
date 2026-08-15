@@ -34,6 +34,7 @@ public class Usuario{
             throw new TreinoRepetidoException("O treino '" + treino.getNomeDivisao() + "' já está agendado em um dia adjacente a " + dia);
 
         }
+        calendarioSemanal.put(dia, treino);
     }
 
     public void exibirCronograma(){
