@@ -128,6 +128,8 @@ public class Main{
                 
                 case 5:
 
+                    usuario.exibirCronograma();
+
                 case 6:
 
                     if (treinos.isEmpty()) {
