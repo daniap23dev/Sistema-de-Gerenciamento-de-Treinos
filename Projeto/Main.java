@@ -107,7 +107,7 @@ public class Main{
                     sc.nextLine();
                     Treino treinoEscolhido = treinos.get(idxTreino);
 
-                    System.out.print("1 - Força  |  2 - Cardio");
+                    System.out.print("1 - Força  |  2 - Cardio :");
                     int tipo = sc.nextInt();
                     sc.nextLine();
 

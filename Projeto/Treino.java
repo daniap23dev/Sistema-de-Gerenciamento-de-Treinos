@@ -47,7 +47,7 @@ public class Treino implements Serializable {
                 writer.write("Nome | Peso(kg) | Altura(m) | Idade | Objetivo");
 
                 writer.newLine();
-                writer.write(usuario.getNome() + " |" + usuario.getPeso() + " |" + usuario.getAltura() + " |" + usuario.getIdade() + " |" + usuario.getObjetivo());
+                writer.write(usuario.getNome() + ": " + usuario.getPeso() + " |" + usuario.getAltura() + " |" + usuario.getIdade() + " |" + usuario.getObjetivo());
                 writer.newLine();
                 writer.newLine();
             }
@@ -59,10 +59,10 @@ public class Treino implements Serializable {
                 String linha;
                 if (ex instanceof ExercicioForca) {
                     ExercicioForca ef = (ExercicioForca) ex;
-                    linha = nomeDivisao + " :" + ef.getNome() + " |" + ef.getSeries() + "| Forca |" + ef.getCargaKg() + " kg x " + ef.getRepeticoes() + "reps";
+                    linha = nomeDivisao + ": " + ef.getNome() + " |" + ef.getSeries() + "| Forca |" + ef.getCargaKg() + " kg x " + ef.getRepeticoes() + "reps";
                 } else {
                     ExercicioCardio ec = (ExercicioCardio) ex;
-                    linha = nomeDivisao + " :" + ec.getNome() + " |" + ec.getSeries() + "| Cardio|" + ec.getTempoMinutos() + " min";
+                    linha = nomeDivisao + ": " + ec.getNome() + " |" + ec.getSeries() + "| Cardio|" + ec.getTempoMinutos() + " min";
                 }
                 writer.write(linha);
                 writer.newLine();           
