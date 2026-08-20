@@ -123,11 +123,11 @@ Todas as classes de domínio (`Usuario`, `Treino`, `Exercicio` e suas subclasses
 A opção 6 gera um arquivo `.csv` com os dados do usuário e o detalhamento do treino escolhido:
 
 ```csv
-Nome,Peso(kg),Altura(m),Idade,Objetivo
-Daniel,78.5,1.78,22,Hipertrofia
+Nome | Peso(kg) | Altura(m) | Idade | Objetivo
+Daniel | 78.5 | 1.78 | 22 | Hipertrofia
 
-Divisao,Exercicio,Series,Tipo,Detalhe
-PEITO,Supino Reto,4,Forca,40.0kg x 12reps
+Divisao | Exercicio | Series | Tipo | Detalhe
+PEITO: Supino Reto | 4 | Forca | 40.0kg x 12reps
 ```
 
 ## Diagrama de classes
