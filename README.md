@@ -130,10 +130,6 @@ Divisao | Exercicio | Series | Tipo | Detalhe
 PEITO: Supino Reto | 4 | Forca | 40.0kg x 12reps
 ```
 
-## Diagrama de classes
-
-O diagrama de classes (UML) do projeto está disponível em [`docs/diagrama.puml`](docs/diagrama.puml) — pode ser renderizado colando o conteúdo em [plantuml.com/plantuml](https://www.plantuml.com/plantuml/uml/) ou usando a extensão **PlantUML** no VS Code.
-
 ## Autor
 
 - Daniel Aires Pereira
